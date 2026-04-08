@@ -24,26 +24,6 @@ checksum, then sends it over TCP. The receiver decodes it and verifies integrity
 ```
 Used DEADBEEF as magic header since it's commonly used in debugging.
 
-## Files
-```
-uart-ethernet-bridge-simulator/
-├── verilog/
-│   ├── uart_tx.v        
-│   ├── uart_rx.v        
-│   └── uart_tb.v        
-├── python/
-│   ├── uart_simulator.py  
-│   ├── bridge.py          
-│   ├── sender.py          
-│   ├── receiver.py        
-│   ├── main.py            
-│   └── metrics.py         
-├── results/
-│   ├── latency_plot.png   
-│   └── pipeline_output.png
-└── README.md
-```
-
 ## How to run
 
 Run the full pipeline (easiest way to see everything):
